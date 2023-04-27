@@ -1,0 +1,25 @@
+.Paginado__List {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.Paginado__Number {
+  font-size: 1rem;
+  color: black;
+  background-color: white;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 0.6rem;
+  transition: 0.5s;
+}
+
+.Paginado__Number:hover {
+  cursor: pointer;
+  background-color: #23eb08;
+}
