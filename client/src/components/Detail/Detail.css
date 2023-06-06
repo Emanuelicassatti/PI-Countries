@@ -53,10 +53,11 @@
 }
 
 .Detail__Activities {
-  background-color: white;
+  background-color: #aeaeae00;
   padding: 0.8rem;
   border-radius: 0.8rem;
   transition: 0.6s;
+  /* display: none; */
 }
 
 .Detail__Activities:hover {

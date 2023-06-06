@@ -13,6 +13,7 @@ import {
   LESS_POPULATION,
   HIGHER_POPULATION,
   ALL,
+  ALL_AMERICA,
   ALL_AFRICA,
   ALL_ASIA,
   ALL_EUROPE,
@@ -113,7 +114,7 @@ export default function Cards() {
         >
           <option value={ALL}>All Continents</option>
           <option value={ALL_AFRICA}>Africa</option>
-          <option value="Americas">America</option>
+          <option value={ALL_AMERICA}>America</option>
           <option value={ALL_ASIA}>Asia</option>
           <option value={ALL_EUROPE}>Europe</option>
           <option value={ALL_OCEANIA}>Oceania</option>
